@@ -279,6 +279,22 @@ ol {
   }
 }
 
+.mobile,
+.desktop {
+  display: none;
+}
+@media (max-width: 768px) {
+  .mobile {
+    display: block;
+    font-size: 15px;
+  }
+}
+@media (min-width: 769px) {
+  .desktop {
+    display: block;
+  }
+}
+
 /* basics */
 
 .clear {
