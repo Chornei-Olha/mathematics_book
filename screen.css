@@ -171,7 +171,7 @@ th,
 td {
   border: 1px solid black;
   text-align: center; /* Centers text in cells */
-  padding: 8px; /* Adds space around the content in each cell */
+  padding: 4px; /* Adds space around the content in each cell */
 }
 
 th {
@@ -282,6 +282,7 @@ ol {
 .mobile,
 .desktop {
   display: none;
+  border: none;
 }
 @media (max-width: 768px) {
   .mobile {
