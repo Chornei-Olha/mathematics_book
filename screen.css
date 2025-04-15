@@ -459,6 +459,17 @@ samp {
 
 /* headers */
 
+@media (max-width: 768px) {
+  .main {
+    font-size: 180%;
+  }
+}
+@media (min-width: 769px) {
+  .main {
+    font-size: 300%;
+  }
+}
+
 h1,
 h2,
 h3,
@@ -481,15 +492,15 @@ thead th {
     margin: 1em 0;
   }
   h2 {
-    font-size: 125%;
+    font-size: 120%;
     line-height: 1.3125;
     margin: 0.8em 0;
     text-align: center;
     clear: both;
   }
   h3 {
-    font-size: 100%;
-    line-height: 1.167;
+    font-size: 85%;
+    line-height: 1;
     margin: 1em 0;
     text-align: center;
   }
@@ -507,15 +518,15 @@ thead th {
     margin: 1.49em 0;
   }
   h2 {
-    font-size: 210%;
+    font-size: 190%;
     line-height: 1.3125;
     margin: 1.167em 0;
     text-align: center;
     clear: both;
   }
   h3 {
-    font-size: x-large;
-    line-height: 1.167;
+    font-size: 140%;
+    line-height: 1;
     margin: 1.556em 0;
     text-align: center;
   }
