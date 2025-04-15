@@ -227,9 +227,18 @@ table.bc tbody td {
   font: oblique 105% Constantia, Baskerville, Palatino, "Palatino Linotype",
     "URW Palladio L", serif;
 }
-.note {
-  margin: 3.112em 4.94em;
+
+@media (max-width: 768px) {
+  .note {
+    margin: 2em 2em;
+  }
 }
+@media (min-width: 769px) {
+  .note {
+    margin: 3.112em 4.94em;
+  }
+}
+
 .note span {
   display: block;
   float: left;
