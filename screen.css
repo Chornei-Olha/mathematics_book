@@ -470,6 +470,17 @@ samp {
   }
 }
 
+@media (max-width: 768px) {
+  .main-mobile {
+    font-size: 90%;
+  }
+}
+@media (min-width: 769px) {
+  .main-mobile {
+    font-size: 110%;
+  }
+}
+
 h1,
 h2,
 h3,
