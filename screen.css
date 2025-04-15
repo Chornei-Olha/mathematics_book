@@ -472,7 +472,7 @@ samp {
 
 @media (max-width: 768px) {
   .main-mobile {
-    font-size: 90%;
+    font-size: 80%;
   }
 }
 @media (min-width: 769px) {
